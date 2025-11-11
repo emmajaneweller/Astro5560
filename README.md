@@ -1,2 +1,2 @@
 # Astro5560
-Astro 5560 final project
+This is my Astro 5560 final project on the two-point correlation functions of quasars and massive galaxies in the cosmological simulations IllustrisTNG (TNG300 volume) and ASTRID. Interactive_corr_plot.ipynb creates an interactive figure showing the results, using the Corr_combos_data.npz data file. Save_param_combos.ipynb shows how this data file was created, using publicly accessible simulation data from https://www.tng-project.org/data/ and https://astrid.psc.edu/data-access/. corr_combos_fig.py (and requirements.txt) create a Streamlit version of the interactive figure.
