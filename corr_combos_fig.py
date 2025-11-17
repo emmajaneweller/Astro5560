@@ -17,7 +17,7 @@ plt.rcParams.update({'axes.linewidth' : 1,
                     })
 
 N_bins = 50
-r_edges = np.linspace(1, 25, N_bins+1)
+r_edges = np.linspace(1, 20, N_bins+1)
 r_avg = (3/4) * (r_edges[1:]**4 - r_edges[:-1]**4) / (r_edges[1:]**3 - r_edges[:-1]**3)
 
 @st.cache_data(show_spinner=False)
